@@ -1,0 +1,23 @@
+﻿Voorbeeld connection string: 
+$"server=localhost;user id=root;database=zoostart;password=uwWachtWoord";
+
+MySqlConnection object
+	belangrijke properties: 
+		ConnectionString
+
+MySqlCommand object
+	belangrijke properties: 
+		Connection
+		CommandText
+		eventueel: Parameters
+	belangrijke methods:
+		ExecuteScalar()
+		ExecuteReader()
+
+MySqlDataReader object
+	belangrijke properties: 
+		HasRows
+	belangrijke methods: 
+		Read()
+
+			
